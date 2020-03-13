@@ -2,6 +2,11 @@
   <div class="block">
     <v-container>
       <h2 class="text-center">Transforme suas Ideias</h2>
+      <h5 class="text-center">
+        O parceiro de desenvolvimento de software certo pode mudar tudo!
+        Ajudamos as empresas de tecnologia a ampliar, fornecendo-lhes equipes
+        ágeis de desenvolvimento de software
+      </h5>
       <v-row>
         <v-col
           v-for="item in items"

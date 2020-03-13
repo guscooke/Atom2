@@ -1,0 +1,25 @@
+[debug] [2020-03-13T18:16:21.582Z] ----------------------------------------------------------------------
+[debug] [2020-03-13T18:16:21.584Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] [2020-03-13T18:16:21.584Z] CLI Version:   7.15.0
+[debug] [2020-03-13T18:16:21.584Z] Platform:      darwin
+[debug] [2020-03-13T18:16:21.584Z] Node Version:  v10.15.0
+[debug] [2020-03-13T18:16:21.585Z] Time:          Fri Mar 13 2020 15:16:21 GMT-0300 (Brasilia Standard Time)
+[debug] [2020-03-13T18:16:21.585Z] ----------------------------------------------------------------------
+[debug] [2020-03-13T18:16:21.585Z] 
+[debug] [2020-03-13T18:16:21.592Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-03-13T18:16:21.593Z] > authorizing via signed-in user
+[debug] [2020-03-13T18:16:21.593Z] [iam] checking project atom-17a3b for permissions ["firebase.projects.get"]
+[debug] [2020-03-13T18:16:21.594Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/atom-17a3b:testIamPermissions  
+
+[debug] [2020-03-13T18:16:22.683Z] <<< HTTP RESPONSE 200
+[debug] [2020-03-13T18:16:22.685Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/atom-17a3b  
+ 
+[debug] [2020-03-13T18:16:23.088Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/admin/atom2'...
+[info] 
+[debug] [2020-03-13T18:16:23.092Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/atom-17a3b/webApps/-/config  
+ 
+[debug] [2020-03-13T18:16:24.419Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000

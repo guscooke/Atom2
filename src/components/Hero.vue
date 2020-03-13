@@ -2,13 +2,18 @@
   <div class="heroBlock">
     <v-carousel cycle hide-delimiters>
       <v-carousel-item
-        v-for="(item,i) in items"
+        v-for="(item, i) in items"
         :key="i"
         :src="item.src"
         reverse-transition="fade-transition"
         transition="fade-transition"
       >
-        <v-row class="title fill-height hidden-xs-only" align="center" justify="center">{{ item.title }}</v-row>
+        <v-row
+          class="title fill-height hidden-xs-only"
+          align="center"
+          justify="center"
+          >{{ item.title }}</v-row
+        >
       </v-carousel-item>
     </v-carousel>
   </div>
@@ -36,5 +41,4 @@ export default {
     };
   }
 };
-
 </script>

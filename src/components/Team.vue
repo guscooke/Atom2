@@ -18,7 +18,7 @@
             <v-card-subtitle class="pb-0">{{ item.subtitle }}</v-card-subtitle>
             <v-card-actions>
               <v-btn color="purple" text>
-                Nossa Historia...
+                Resume
               </v-btn>
 
               <v-spacer></v-spacer>

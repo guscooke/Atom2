@@ -1,6 +1,6 @@
 <template>
   <v-container>
-    <v-toolbar class="mainHeader" flat>
+    <v-toolbar flat class="mainHeader">
       <v-toolbar-title>Atomic 47</v-toolbar-title>
       <v-spacer></v-spacer>
       <v-toolbar-items class="hidden-xs-only">

@@ -14,7 +14,7 @@
       <v-container>
         <v-form ref="form" v-model="valid" lazy-validation>
           <v-text-field
-            v-model="name"
+            v-model="nome"
             :counter="10"
             :rules="nameRules"
             label="Name"
@@ -27,7 +27,7 @@
             required
           ></v-text-field>
           <v-textarea
-            v-model="message"
+            v-model="mensagem"
             :rules="messageRules"
             label="Message"
             required
@@ -37,7 +37,7 @@
             color="success"
             class="mr-4"
             @click="validate"
-            >Submit</v-btn
+            >Enviar</v-btn
           >
           <v-btn color="error" class="mr-4" @click="reset">Reset</v-btn>
         </v-form>
@@ -62,18 +62,18 @@ export default {
     name: "",
     nameRules: [
       v => !!v || "Name is required",
-      v => (v && v.length <= 10) || "Name must be less than 10 characters"
+      v => (v && v.length <= 10) || "Nome precisa ter no mínimo 10 caracteres"
     ],
     email: "",
     emailRules: [
       v => !!v || "E-mail is required",
-      v => /.+@.+\..+/.test(v) || "E-mail must be valid"
+      v => /.+@.+\..+/.test(v) || "E-mail preciso ser valido"
     ],
     message: "",
     messageRules: [
       v => !!v || "Message is required",
       v =>
-        (v && v.length >= 10) || "Mensagem precisa ter no minimo 10 caracteris"
+        (v && v.length >= 10) || "Mensagem precisa ter no minimo 10 caracteres"
     ]
   }),
 
