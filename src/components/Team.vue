@@ -66,8 +66,7 @@ export default {
         subtitle: "Gustavo Cooke",
         description:
           "All starts with Brokerage firms over the nineties as an intern to finally become a Stock Broker, three firms laters I tried different sectors such as telecom sector, chemical Trading Company , BiofueIs and Commodities, spent most of my years as sales, trader and broker.I also dedicated a great number of years building a strong network with major participants in the Biofuel and Sugar industries from Mills, Bio-Refineries, Trading Companies, Marketers and Distributors.Entrepreneurism called me several times, I have ventured my own businesses over the past 8 years and I still do.",
-        src: require("../assets/images/img15.jpg"),
-        avatar: require("../assets/images/img1.jpg")
+        src: require("../assets/images/img15.jpg")
       }
     ]
   })

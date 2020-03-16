@@ -1,7 +1,16 @@
 <template>
   <v-container>
     <v-toolbar flat class="mainHeader">
-      <v-toolbar-title>Atomic 47</v-toolbar-title>
+      <v-toolbar-side-icon>
+        <v-img
+          flat
+          class="mr-3"
+          src="@/assets/images/at.png"
+          height="50px"
+          width="260px"
+        >
+        </v-img>
+      </v-toolbar-side-icon>
       <v-spacer></v-spacer>
       <v-toolbar-items class="hidden-xs-only">
         <v-btn text><router-link to="/">Home</router-link></v-btn>
