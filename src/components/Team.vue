@@ -10,8 +10,8 @@
               height="200px"
               :src="item.src"
             >
-              <v-avatar class="profile" color="grey" size="164" title>
-                <v-img src="../assets/images/img16.jpg"></v-img>
+              <v-avatar class="profile" color="grey" size="156" title>
+                <v-img src="item.src"></v-img>
               </v-avatar>
               <v-card-title>{{ item.title }}</v-card-title>
             </v-img>
@@ -58,7 +58,8 @@ export default {
         subtitle: "Daniel Cassiano",
         description:
           "IT Executive with about 17 years of experience inside large organizations and startups. I am focussed on leading teams merging technical, product and business visions through the right way, building both strategic, management and technical sides. My main challenge right now is to lead the Digital Technology of Magalu and organization's transformation into a Data-Driven one, democratizing data, science, tools, and mostly: the ability to make decisions even inside large scale products or a common sales analysis with the power of Machine Learning and IA, in the most simple way we can. I am a specialist on scaling teams (people, processes and technology) inside both chaordic and boostraping organizationsI led teams in a lot of areas inside IT ecosystem: web platforms, mobile products, infrastructure, cybersecurity, financial, but my main field of expertise is with Data (Engineering, Science, ML, IA), specially building Data Products.Speaking of my technical side, I have solid experience with software architecture and engineering (mostly backend but also front-end), APIs, big data processing (since 2009), search platforms, sort and ranking algorithms, also location-based systems.I worked with a lot of technologies, frameworks and programming languages on my entire career even coding or leading teams and projects, so I'm agnostic with them and my goal is to choose the right tool to solve the problem besides my personal preferences.  ",
-        src: require("../assets/images/img10.jpg")
+        src: require("../assets/images/img10.jpg"),
+        
       },
       {
         id: 2,

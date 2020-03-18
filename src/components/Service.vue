@@ -4,8 +4,8 @@
       <h2 class="text-center">Transforme suas Ideias</h2>
       <p class="text-center">
         O parceiro de desenvolvimento de software certo pode mudar tudo!
-        Ajudamos as empresas de tecnologia a ampliar, fornecendo-lhes equipes
-        ágeis de desenvolvimento de software
+        Ajudamos as empresas de tecnologia a ampliar, fornecendo soluções ágeis
+        de desenvolvimento de software
       </p>
       <v-row>
         <v-col

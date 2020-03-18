@@ -2,6 +2,9 @@ import Vue from "vue";
 import App from "./App.vue";
 import vuetify from "./plugins/vuetify";
 import VueRouter from "vue-router";
+import VuePageTransition from "vue-page-transition";
+
+Vue.use(VuePageTransition);
 
 import Home from "./views/Home";
 import About from "./views/About";
@@ -16,7 +19,7 @@ Vue.config.productionTip = false;
 
 const router = new VueRouter({
   routes: [
-    { path: "/", component: Home },
+    { path: "/", component: Home, meta: { transition: "zoom" } },
     { path: "/about", component: About },
     { path: "/contact", component: Contact },
     { path: "*", component: NotFound }

@@ -4,7 +4,9 @@
       <Header />
     </v-app-bar>
 
-    <router-view></router-view>
+    <vue-page-transition name="flip-x">
+      <router-view></router-view>
+    </vue-page-transition>
 
     <v-footer>
       <Footer />
